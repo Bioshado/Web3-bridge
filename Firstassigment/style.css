@@ -1,0 +1,101 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(131, 75, 75),
+    rgb(236, 59, 59)
+  );
+}
+
+/*Navigation Bar */
+nav {
+  display: inline-block;
+  position: relative;
+  align-items: center;
+  margin-left: 34.5%;
+}
+
+/* style the dropdown*/
+.dropdwn {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  margin: 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.Courses {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.Courses a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/*set a color for the hover*/
+
+.Courses a:hover {
+  background-color: rgba(220, 230, 222, 0.856);
+}
+
+/* hover */
+
+.dropdown:hover .Courses {
+  display: block;
+}
+
+.dropdown:hover .dropdwn {
+  background-color: rgba(220, 230, 222, 0.856);
+  color: rgb(218, 147, 147);
+}
+
+/*logo image*/
+#navBar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+/* content text */
+.content {
+  background-color: white;
+  color: black;
+  margin-left: 30%;
+  margin-right: 28%;
+  padding: 25px;
+}
+
+.content h2 {
+  text-align: center;
+}
+
+/*social media links*/
+.social {
+  display: inline-block;
+  margin-left: 30%;
+  margin-right: 28%;
+  padding: 25px;
+}
+
+.social img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.social p {
+  float: left;
+}
